@@ -1,3 +1,17 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BG Автогари</title>
+    
+    <!-- Това са "линкoвете" към файловете, които браузърът търси -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2c3e50">
+</head>
+<body>
+
 <div class="app-container">
   <header>
     <h1>BG Автогари</h1>
@@ -25,11 +39,18 @@
 
     <div id="loader" class="hidden">Зареждане на разписанието...</div>
     
-   <div id="schedule-container">
+    <div id="schedule-container">
       <ul id="bus-list"></ul>
     </div>
-  </main> <div id="ad-container" class="ad-placeholder">
+  </main> 
+  
+  <div id="ad-container" class="ad-placeholder">
     <p>Място за реклама</p>
   </div>
-  
-</div> ```
+</div>
+
+<!-- Това свързва логиката (скрипта) -->
+<script src="script.js" defer></script>
+
+</body>
+</html>
