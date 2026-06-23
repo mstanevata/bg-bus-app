@@ -1,0 +1,35 @@
+<div class="app-container">
+  <header>
+    <h1>BG Автогари</h1>
+    <button id="theme-toggle" title="Смяна на темата">🌙</button>
+  </header>
+  
+  <main>
+    <div class="select-row">
+      <select id="station-select">
+        <option value="">-- Изберете град --</option>
+        <option value="sofia">София (Централна)</option>
+        <option value="plovdiv">Пловдив (Юг)</option>
+        <option value="varna">Варна</option>
+        <option value="burgas">Бургас</option>
+      </select>
+      <button id="fav-btn" class="fav-button" title="Добави в любими">☆</button>
+    </div>
+
+    <input type="text" id="search-input" placeholder="🔍 Търсене на дестинация или превозвач..." class="hidden">
+
+    <div id="tabs-container" class="tabs hidden">
+      <button class="tab-btn active" data-tab="departures">🛫 Заминаващи</button>
+      <button class="tab-btn" data-tab="arrivals">🛬 Пристигащи</button>
+    </div>
+
+    <div id="loader" class="hidden">Зареждане на разписанието...</div>
+    
+   <div id="schedule-container">
+      <ul id="bus-list"></ul>
+    </div>
+  </main> <div id="ad-container" class="ad-placeholder">
+    <p>Място за реклама</p>
+  </div>
+  
+</div> ```
